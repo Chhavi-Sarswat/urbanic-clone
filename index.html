@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbanic Website</title>
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        .navbar{
+            position: fixed;
+            z-index: 99;
+            background-color: white;
+            width: 100vw;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            padding-inline: 20px;
+            justify-content: space-between;
+        }
+        .left-nav img{
+            width: 136px;
+        }
+        .nav-items{
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            list-style: none;
+            font-weight:600;
+        }
+        .left-nav{
+            display: flex;
+            gap: 18px;
+            align-items: center;
+        }
+        .right-nav{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .nav-icon{
+            width: 20px;
+            height: 20px;
+        }
+        .main-img{
+            width: 100vw;
+            height: calc(100v - 80px);
+        }
+        .abc{
+            padding-top: 80px;
+        }
+        .box{
+            background-color: #FAEBB0;;
+            height: 350px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            border-width: 30px;
+            
+            
+        }
+        .lines{
+            height: 420px;
+            width: 94px;
+            display: flex;
+            color:#07285D;
+            font-family: var(--ub-marketing-font-family) !important;;
+            letter-spacing: 0.7px ;
+            
+            font-size: 30px;
+           
+        }
+        
+        
+        
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left-nav"> 
+            <img src="https://maddyness-uk.twic.pics/2023/11/Screenshot-2023-11-15-at-16.23.56.png?twic=v1/resize=630" alt="">
+            <ul class="nav-items">
+                <li>NEW IN</li>
+                <li>COLLECTION</li>
+                <li>MEMBERSHIP</li>
+                <li>SOCIAL RESPONSIBILITIES</li>
+                <li>ABOUT US</li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <img class="nav-icon" src="photos/search-alt-1-svgrepo-com.svg" alt="">
+            <img class="nav-icon" src="photos/profile-svgrepo-com.svg" alt="">
+            <img class="nav-icon" src="photos/shopping-bag-svgrepo-com.svg" alt="">
+            <img class="nav-icon" src="photos/help-svgrepo-com.svg" alt="">
+            <img class="nav-icon" src="photos/earth-svgrepo-com.svg" alt="">
+        </div>
+    </nav>
+    <main>
+        <img class="main-img abc" src="https://img101.urbanic.com/v1/90cdcd3e349f45b98b4daea2892e6f67.webp" alt="">
+        <img class="main-img" src="https://img101.urbanic.com/v1/ba9fd95b77bf437682b05b85683520df.webp" alt="">
+        <img  class= "main-img" src="https://img101.urbanic.com/v1/72c586d4a8d14e95938a7afab9c1b931.webp" alt="">
+        <video class= "main-img" src="https://buyer-video-in.urbanic.com/eva/Urbanic_IN/c5e0b93d29f545e693903730a1e2d942.mp4" autoplay loop muted></video>
+        <img  class= "main-img" src="https://img101.urbanic.com/v1/bb5a81a293d64f3da456045a9f66552b.webp" alt="">
+    </main>
+    <div class="box">
+        <img src="photos/urbanic.png" alt="" width="88px" height="88px">
+        <p class="lines" >You are invited: Not </p>
+        <p class="lines">part of the list yet?</p>
+        
+        
+    </div>
+    
+</body>
+</html>
