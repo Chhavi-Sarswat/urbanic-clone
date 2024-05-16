@@ -1,0 +1,54 @@
+ *{
+    margin:0 ;
+    padding: 0;
+        box-sizing: border-box;
+    }
+.mark{
+
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+h1{
+font-size: 85px;
+font-family: 'dala floda'; 
+color: rgb(192, 50, 50);
+line-height: 100px;
+white-space: nowrap;
+padding: 2.0rem;
+letter-spacing: 1px;
+animation: move-rt1 6000ms linear infinite;
+}
+@keyframes move-rt1{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.bar{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;}
+
+.opt{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: end;
+  width: 1500px;
+    font-size: 15px;
+}
+.photo{
+    display: flex;
+    padding: 20px;
+}
+.pic1{
+    padding: 7px;
+}
+.pic2{
+    padding: 7px;
+}
+.pic3{
+    padding: 5px;
+}
