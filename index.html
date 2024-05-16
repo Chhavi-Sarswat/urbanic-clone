@@ -8,7 +8,7 @@
         *{
             margin: 0;
             padding: 0;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-family:"URMacan", -apple-system, blinkmacsystemfont, "Helvetica Neue", helvetica, segoe ui, arial, roboto, "PingFang SC", "miui", "Hiragino Sans GB", "Microsoft Yahei", sans-serif;;
             box-sizing: border-box;
         }
         .navbar{
@@ -54,7 +54,7 @@
             padding-top: 80px;
         }
         .box{
-            background-color: #FAEBB0;;
+            background-color: #FAEBB0;
             height: 350px;
             width: 100%;
             display: flex;
@@ -63,23 +63,67 @@
             align-items: center;
             box-sizing: border-box;
             border-width: 30px;
-            
-            
         }
         .lines{
             display: flex;
             color:#07285D;
-            /* font-family: var(--ub-marketing-font-family) !important;; */
+            letter-spacing: 0.7px ;
+            font-size: 2.6rem;
+            font-weight: 500;
+            font-family: "URDalaFloda";   
+        }
+        .line2{
+            display: flex;
+            color:#07285D;
             letter-spacing: 0.7px ;
             padding-block: 0.4rem;
             font-size: 2.6rem;
             font-weight: 500;
-
+            font-family: "URDalaFloda";
+            padding-bottom: 25px;
         }
-        
-        
-        
-       
+        .emails{
+           all: unset;
+           color:unset;
+           text-align: unset;
+           margin-top: unset;
+           width: unset;
+           color: #000;
+           margin-top: .16rem;
+           text-align: center;  
+        }
+        .mail{
+            border-bottom: 1px solid #000;
+            width: 16vw;
+            color: transparent;
+            font-size: .14rem;
+            margin-top: -.23rem;
+            min-width: 2.78rem;
+            pointer-events: none;
+        } 
+        .select{
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            font-size: 15px;
+            color: #07285D;
+            gap: 9px;
+            
+        } 
+        .box2{
+           box-sizing: border-box;
+           display: inline-block;
+           height: 15px;
+           width: 15px;  
+        } 
+        .button1{
+            display:flex;
+            justify-content:center;
+            width: 60px;
+            height: 20px;
+            align-items: center;
+            background-color:#07285D;
+        }  
     </style>
 </head>
 <body>
@@ -112,10 +156,20 @@
     <div class="box">
         <img src="photos/urbanic.png" alt="" width="88px" height="88px">
         <p class="lines" >You are invited: Not </p>
-        <p class="lines">part of the list yet?</p>
-        
-        
-    </div>
-    
+        <p class="line2">part of the list yet?</p>
+        <input type="email" class="emails" placeholder="Enter your e-mail" value="" style="width: 278px;">
+        <div class="mail">Enter your e-mail</div>
+        <div class="select"> 
+         <span> 
+            <input class="box2" type="checkbox" id="selcet" required>
+        </span>   
+         <label for="select">I agree to the Privacy Policy </label>
+         <div class="button1">
+           <button>
+            Subscribe now
+           </button>
+        </div>
+        </div>
+    </div> 
 </body>
 </html>
