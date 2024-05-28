@@ -1,7 +1,7 @@
  *{
     margin: 0 ;
     padding: 0;
-        box-sizing: border-box;
+    box-sizing: border-box;
     }
     .navbar{
         font-family: 'Times New Roman', Times, serif;
@@ -74,7 +74,7 @@ animation: move-rt1 6000ms linear infinite;
     display: flex;
     padding: 0.5rem;
     justify-content: end;
-  width: 1500px;
+  width: 100vw;
     font-size: 15px;
 }
 .container{
