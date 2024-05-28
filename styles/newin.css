@@ -1,10 +1,48 @@
  *{
-    margin:0 ;
+    margin: 0 ;
     padding: 0;
         box-sizing: border-box;
     }
+    .navbar{
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+        z-index: 99;
+        background-color: white;
+        width: 100vw;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding-inline: 20px;
+        justify-content: space-between;
+    }
+    .left-nav img{
+        width: 136px;
+    }
+    .nav-items{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        list-style: none;
+        font-weight:600;
+    }
+    .left-nav{
+        display: flex;
+        padding: 20px;
+        gap: 18px;
+        align-items: center;
+    }
+    .right-nav{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .nav-icon{
+        padding: 2px;
+        width: 20px;
+        height: 20px;
+    }
 .mark{
-
+    padding: 70px;
     display: flex;
     justify-content: flex-start;
     overflow: hidden;
@@ -39,16 +77,144 @@ animation: move-rt1 6000ms linear infinite;
   width: 1500px;
     font-size: 15px;
 }
-.photo{
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.items{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0.5vw;
+}
+.box{
+    background-color: #FAEBB0;
+    height: 350px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-width: 30px;
+}
+.lines{
+    display: flex;
+    color:#07285D;
+    letter-spacing: 0.7px ;
+    font-size: 2.6rem;
+    font-weight: 500;
+    font-family: "URDalaFloda";   
+}
+.line2{
+    display: flex;
+    color:#07285D;
+    letter-spacing: 0.7px ;
+    padding-block: 0.4rem;
+    font-size: 2.6rem;
+    font-weight: 500;
+    font-family: "URDalaFloda";
+    padding-bottom: 25px;
+}
+.emails{
+   all: unset;
+   color:unset;
+   text-align: unset;
+   margin-top: unset;
+   width: unset;
+   color: #000;
+   margin-top: .16rem;
+   text-align: center;  
+}
+.mail{
+    border-bottom: 1px solid #000;
+    width: 16vw;
+    color: transparent;
+    font-size: .14rem;
+    margin-top: -.23rem;
+    min-width: 2.78rem;
+    pointer-events: none;
+} 
+.select{
+    display: flex;
+    justify-content: center;
     padding: 20px;
+    font-size: 15px;
+    color: #07285D;
+    gap: 9px;
+    
+} 
+.box2{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 15px;
+    width: 15px;  
+ } 
+ .button1{
+     display:flex;
+     justify-content:center;
+     width: 60px;
+     height: 20px;
+     align-items: center;
+     background-color:#07285D;
+ }  
+ .leftcontent{
+    padding: 30px;
+    margin: 20px;
+    font-size: small;
+ }
+ .foot{
+    margin-top: 90px;
+    margin-left: 60px;
+    margin-bottom: 130px;
+    height: 17vh;
+    width: 28vw;
+    border-style: none;
+    box-sizing: border-box;
+    
 }
-.pic1{
-    padding: 7px;
+.urbanicfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style: none;
+    font-size:small                                                                                                                        ;
 }
-.pic2{
-    padding: 7px;
-}
-.pic3{
+li{
     padding: 5px;
+}
+.footericon{
+aspect-ratio: 1/1;
+width: 4rem;
+height: 4rem;
+padding: 9px;
+margin: 5px;
+} 
+.fottericon{
+aspect-ratio: 1/1;
+width: 10rem;
+height: 4rem;
+padding: 11px;
+}
+.insta{
+display: flex;
+justify-content: center;
+}
+.pic{
+height: 4rem;
+width: 10rem;
+margin: 1rem;
+}
+p{
+text-align: center;
+font-weight: lighter;
+font-size: smaller;
+}
+.lastfoot{
+aspect-ratio: 1/1;
+height: 2rem;
+width: 2rem;
+margin: 10px;
+margin-top: 20px;
+margin-bottom: 150px;
 }
